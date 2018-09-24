@@ -17,7 +17,7 @@ class CreatePlayersTable extends Migration
             $table->integer('id')->primary();
             $table->string('name',20);
             $table->string('dTag',15);
-            $table->string('password',50);
+            $table->string('password',100);
             $table->string('role',10);             
             $table->timestamps();
         });
